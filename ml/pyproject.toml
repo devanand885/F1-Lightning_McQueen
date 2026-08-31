@@ -1,9 +1,9 @@
-﻿[build-system]
+[build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "F1 Lightning McQueen-ml"
+name = "f1-lightning-mcqueen-ml"
 version = "0.1.0"
 description = "F1-Lightning-McQueen DS/ML layer - feature engineering, models, inference"
 requires-python = ">=3.12"
