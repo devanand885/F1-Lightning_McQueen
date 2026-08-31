@@ -50,10 +50,10 @@ export default function MobileDrawer({ open, onClose }: Props) {
               <Image
                 src="/f1lm.png"
                 alt="F1 Lightning McQueen"
-                width={120}
-                height={45}
+                width={100}
+                height={36}
                 priority
-                className="bg-slate-200 rounded"
+                className="h-8 w-auto rounded object-cover"
               />
             </Link>
 

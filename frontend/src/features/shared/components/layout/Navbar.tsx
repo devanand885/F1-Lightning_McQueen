@@ -65,10 +65,10 @@ export default function Navbar() {
               <Image
                 src="/f1lm.png"
                 alt="F1 Lightning McQueen"
-                width={160}
-                height={50}
+                width={120}
+                height={40}
                 priority
-                className="bg-slate-200 rounded max-lg:hidden"
+                className="h-9 w-auto rounded object-cover max-lg:hidden hover:opacity-90 transition-opacity"
               />
             </Link>
 
