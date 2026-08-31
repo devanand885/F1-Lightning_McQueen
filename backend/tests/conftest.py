@@ -1,11 +1,11 @@
-﻿import pytest
+import pytest
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 from app.db.base import Base
 from app.models import *  # noqa: F401,F403  (populate Base.metadata)
 
-TEST_DATABASE_URL = "postgresql+psycopg://F1 Lightning McQueen:F1 Lightning McQueen@localhost:5433/F1 Lightning McQueen_test"
+TEST_DATABASE_URL = "postgresql+psycopg://f1lm:f1lm@localhost:5433/f1lm_test"
 
 _engine = create_engine(TEST_DATABASE_URL, future=True)
 _TestSessionLocal = sessionmaker(bind=_engine, future=True)

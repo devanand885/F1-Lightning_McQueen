@@ -1,16 +1,16 @@
-﻿services:
+services:
   postgres:
     image: postgres:16-alpine
     environment:
-      POSTGRES_USER: F1 Lightning McQueen
-      POSTGRES_PASSWORD: F1 Lightning McQueen
-      POSTGRES_DB: F1 Lightning McQueen
+      POSTGRES_USER: f1lm
+      POSTGRES_PASSWORD: f1lm
+      POSTGRES_DB: f1lm
     ports:
       - "5433:5432"
     volumes:
-      - F1 Lightning McQueen_postgres_data:/var/lib/postgresql/data
+      - f1lm_postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U F1 Lightning McQueen -d F1 Lightning McQueen"]
+      test: ["CMD-SHELL", "pg_isready -U f1lm -d f1lm"]
       interval: 5s
       timeout: 5s
       retries: 10
@@ -20,7 +20,7 @@
     env_file:
       - ./backend/.env
     environment:
-      DATABASE_URL: postgresql+psycopg://F1 Lightning McQueen:F1 Lightning McQueen@postgres:5432/F1 Lightning McQueen
+      DATABASE_URL: postgresql+psycopg://f1lm:f1lm@postgres:5432/f1lm
     ports:
       - "8000:8000"
     depends_on:
@@ -31,4 +31,4 @@
       - ./backend:/app
 
 volumes:
-  F1 Lightning McQueen_postgres_data:
+  f1lm_postgres_data:

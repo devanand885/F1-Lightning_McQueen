@@ -1,4 +1,4 @@
-﻿from functools import lru_cache
+from functools import lru_cache
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
@@ -6,7 +6,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", env_file_encoding="utf-8", extra="ignore")
 
-    database_url: str = "postgresql+psycopg://F1 Lightning McQueen:F1 Lightning McQueen@localhost:5432/F1 Lightning McQueen"
+    database_url: str = "postgresql+psycopg://f1lm:f1lm@localhost:5433/f1lm"
 
     openf1_base_url: str = "https://api.openf1.org/v1"
     openf1_timeout_seconds: float = 10.0
