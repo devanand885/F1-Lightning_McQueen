@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { X } from "lucide-react";
@@ -48,7 +48,7 @@ export default function MobileDrawer({ open, onClose }: Props) {
         >
           <Link href="/" className="flex items-center ">
               <Image
-                src="/F1 Lightning McQueen.png"
+                src="/f1lm.png"
                 alt="F1 Lightning McQueen"
                 width={120}
                 height={45}

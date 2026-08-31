@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { Menu } from "lucide-react";
@@ -63,7 +63,7 @@ export default function Navbar() {
           >
             <Link href="/" className="flex items-center ">
               <Image
-                src="/F1 Lightning McQueen.png"
+                src="/f1lm.png"
                 alt="F1 Lightning McQueen"
                 width={160}
                 height={50}
@@ -133,7 +133,7 @@ export default function Navbar() {
           >
             <Link href="/" className="flex justify-center">
               <Image
-                src="/F1 Lightning McQueen.png"
+                src="/f1lm.png"
                 alt="F1 Lightning McQueen"
                 width={140}
                 height={44}
