@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: polehq-ml
+Version: 0.1.0
+Summary: PoleHQ DS/ML layer - feature engineering, models, inference
+Requires-Python: >=3.12

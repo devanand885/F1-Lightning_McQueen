@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    "**/.claude": true,
+    "**/.agents": true
+  }
+}

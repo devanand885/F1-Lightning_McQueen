@@ -1,0 +1,10 @@
+﻿README.md
+pyproject.toml
+./__init__.py
+./features/__init__.py
+./inference/__init__.py
+./models/__init__.py
+F1 Lightning McQueen_ml.egg-info/PKG-INFO
+F1 Lightning McQueen_ml.egg-info/SOURCES.txt
+F1 Lightning McQueen_ml.egg-info/dependency_links.txt
+F1 Lightning McQueen_ml.egg-info/top_level.txt

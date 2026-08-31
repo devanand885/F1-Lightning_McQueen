@@ -1,0 +1,488 @@
+{
+  "run_id": "2026-08-25",
+  "generated_at": "2026-08-25T16:43:01.148052+00:00",
+  "seed": 42,
+  "n_simulations": 10000,
+  "n_remaining_races": 16,
+  "race_pace_weight": 0.7,
+  "qualifying_pace_weight": 0.3,
+  "recency_half_life_days": 120,
+  "excluded_drivers": [
+    {
+      "driver_id": 21,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 22,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 23,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 24,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 25,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 26,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 28,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 29,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 31,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 32,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 33,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 34,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 35,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 36,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 39,
+      "reason": "no completed race sessions"
+    },
+    {
+      "driver_id": 40,
+      "reason": "no completed race sessions"
+    }
+  ],
+  "calibration": [
+    {
+      "driver_id": 1,
+      "rating": 0.9928452479395443,
+      "sigma": 0.007583333390629455,
+      "dnf_prob": 0.09406008415696251,
+      "races_entered": 45,
+      "current_points": 530.0
+    },
+    {
+      "driver_id": 2,
+      "rating": 0.9916413529125585,
+      "sigma": 0.00766542228862337,
+      "dnf_prob": 0.1122419023387807,
+      "races_entered": 45,
+      "current_points": 551.0
+    },
+    {
+      "driver_id": 3,
+      "rating": 1.0117620511794592,
+      "sigma": 0.04240446174161091,
+      "dnf_prob": 0.1304237205205989,
+      "races_entered": 45,
+      "current_points": 29.0
+    },
+    {
+      "driver_id": 4,
+      "rating": 1.0004822046946962,
+      "sigma": 0.020671723776161333,
+      "dnf_prob": 0.09406008415696251,
+      "races_entered": 45,
+      "current_points": 119.0
+    },
+    {
+      "driver_id": 5,
+      "rating": 1.010931976673465,
+      "sigma": 0.011786448350364126,
+      "dnf_prob": 0.1762947015907188,
+      "races_entered": 8,
+      "current_points": 0.0
+    },
+    {
+      "driver_id": 6,
+      "rating": 1.0072679389402905,
+      "sigma": 0.007655833705017562,
+      "dnf_prob": 0.09406008415696251,
+      "races_entered": 45,
+      "current_points": 64.0
+    },
+    {
+      "driver_id": 7,
+      "rating": 0.9919457379841852,
+      "sigma": 0.024704788790168082,
+      "dnf_prob": 0.1122419023387807,
+      "races_entered": 45,
+      "current_points": 369.0
+    },
+    {
+      "driver_id": 8,
+      "rating": 1.0244569595857906,
+      "sigma": 0.03245055960453547,
+      "dnf_prob": 0.239514629611508,
+      "races_entered": 45,
+      "current_points": 57.0
+    },
+    {
+      "driver_id": 9,
+      "rating": 0.9974557934784669,
+      "sigma": 0.06957718433754428,
+      "dnf_prob": 0.09406008415696251,
+      "races_entered": 45,
+      "current_points": 380.0
+    },
+    {
+      "driver_id": 10,
+      "rating": 1.0272382853386368,
+      "sigma": 0.01316524089541517,
+      "dnf_prob": 0.18839453015986926,
+      "races_entered": 44,
+      "current_points": 33.0
+    },
+    {
+      "driver_id": 11,
+      "rating": 1.0079115675461443,
+      "sigma": 0.007868998654527282,
+      "dnf_prob": 0.054332615715823464,
+      "races_entered": 30,
+      "current_points": 33.0
+    },
+    {
+      "driver_id": 12,
+      "rating": 1.0132299288918567,
+      "sigma": 0.007897736829325819,
+      "dnf_prob": 0.1304237205205989,
+      "races_entered": 45,
+      "current_points": 78.0
+    },
+    {
+      "driver_id": 13,
+      "rating": 1.0132291084992897,
+      "sigma": 0.022929139724739228,
+      "dnf_prob": 0.1304237205205989,
+      "races_entered": 45,
+      "current_points": 53.0
+    },
+    {
+      "driver_id": 14,
+      "rating": 1.0116098256395112,
+      "sigma": 0.02431555726811871,
+      "dnf_prob": 0.1304237205205989,
+      "races_entered": 45,
+      "current_points": 81.0
+    },
+    {
+      "driver_id": 15,
+      "rating": 1.013065818829102,
+      "sigma": 0.006895006875777014,
+      "dnf_prob": 0.05769644779332615,
+      "races_entered": 45,
+      "current_points": 41.0
+    },
+    {
+      "driver_id": 16,
+      "rating": 0.9934279568675426,
+      "sigma": 0.009888363541306629,
+      "dnf_prob": 0.05769644779332615,
+      "races_entered": 45,
+      "current_points": 325.0
+    },
+    {
+      "driver_id": 17,
+      "rating": 1.010257370048953,
+      "sigma": 0.007585121147863106,
+      "dnf_prob": 0.14860553870241708,
+      "races_entered": 45,
+      "current_points": 70.0
+    },
+    {
+      "driver_id": 18,
+      "rating": 0.9922708928524365,
+      "sigma": 0.009027636486350752,
+      "dnf_prob": 0.05769644779332615,
+      "races_entered": 45,
+      "current_points": 479.0
+    },
+    {
+      "driver_id": 19,
+      "rating": 0.9930731539034641,
+      "sigma": 0.0073023537305651086,
+      "dnf_prob": 0.09406008415696251,
+      "races_entered": 45,
+      "current_points": 502.0
+    },
+    {
+      "driver_id": 20,
+      "rating": 1.011831584686508,
+      "sigma": 0.008297944253607482,
+      "dnf_prob": 0.1304237205205989,
+      "races_entered": 45,
+      "current_points": 59.0
+    },
+    {
+      "driver_id": 27,
+      "rating": 1.0096666590380003,
+      "sigma": 0.007598307202277702,
+      "dnf_prob": 0.046240524013466774,
+      "races_entered": 37,
+      "current_points": 19.0
+    },
+    {
+      "driver_id": 30,
+      "rating": 1.0059640775894296,
+      "sigma": 0.009646640347799407,
+      "dnf_prob": 0.08693218514531754,
+      "races_entered": 15,
+      "current_points": 23.0
+    },
+    {
+      "driver_id": 37,
+      "rating": 1.0297801803604598,
+      "sigma": 0.018847859251100725,
+      "dnf_prob": 0.20693218514531753,
+      "races_entered": 15,
+      "current_points": 0.0
+    },
+    {
+      "driver_id": 38,
+      "rating": 1.0320186237052729,
+      "sigma": 0.011471390546340722,
+      "dnf_prob": 0.28693218514531754,
+      "races_entered": 15,
+      "current_points": 0.0
+    }
+  ],
+  "result": [
+    {
+      "driver_id": 1,
+      "expected_points": 673.2181,
+      "expected_championship_position": 2.1333,
+      "championship_win_probability": 0.1984,
+      "championship_podium_probability": 0.9307,
+      "race_win_probability": 0.0326375,
+      "race_podium_probability": 0.2378875
+    },
+    {
+      "driver_id": 2,
+      "expected_points": 702.4582,
+      "expected_championship_position": 1.3006,
+      "championship_win_probability": 0.7531,
+      "championship_podium_probability": 0.9921,
+      "race_win_probability": 0.04038125,
+      "race_podium_probability": 0.27686875
+    },
+    {
+      "driver_id": 3,
+      "expected_points": 126.1831,
+      "expected_championship_position": 10.9515,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.12504375,
+      "race_podium_probability": 0.2420375
+    },
+    {
+      "driver_id": 4,
+      "expected_points": 225.3473,
+      "expected_championship_position": 8.0657,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.07546875,
+      "race_podium_probability": 0.236625
+    },
+    {
+      "driver_id": 5,
+      "expected_points": 25.8906,
+      "expected_championship_position": 21.4928,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.00265,
+      "race_podium_probability": 0.0219125
+    },
+    {
+      "driver_id": 6,
+      "expected_points": 92.6985,
+      "expected_championship_position": 12.9623,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.00063125,
+      "race_podium_probability": 0.01071875
+    },
+    {
+      "driver_id": 7,
+      "expected_points": 521.2734,
+      "expected_championship_position": 5.7407,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.003,
+      "race_win_probability": 0.16446875,
+      "race_podium_probability": 0.37815
+    },
+    {
+      "driver_id": 8,
+      "expected_points": 98.5145,
+      "expected_championship_position": 12.7823,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.03453125,
+      "race_podium_probability": 0.09304375
+    },
+    {
+      "driver_id": 9,
+      "expected_points": 540.2625,
+      "expected_championship_position": 5.4065,
+      "championship_win_probability": 0.0013,
+      "championship_podium_probability": 0.0175,
+      "race_win_probability": 0.31546875,
+      "race_podium_probability": 0.40181875
+    },
+    {
+      "driver_id": 10,
+      "expected_points": 36.2033,
+      "expected_championship_position": 20.6785,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.00014375,
+      "race_podium_probability": 0.00165
+    },
+    {
+      "driver_id": 11,
+      "expected_points": 61.071,
+      "expected_championship_position": 17.3957,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.00064375,
+      "race_podium_probability": 0.0106
+    },
+    {
+      "driver_id": 12,
+      "expected_points": 87.3248,
+      "expected_championship_position": 13.5603,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 7.5e-05,
+      "race_podium_probability": 0.001725
+    },
+    {
+      "driver_id": 13,
+      "expected_points": 107.6304,
+      "expected_championship_position": 11.9176,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.03189375,
+      "race_podium_probability": 0.10930625
+    },
+    {
+      "driver_id": 14,
+      "expected_points": 144.7424,
+      "expected_championship_position": 9.668,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.04321875,
+      "race_podium_probability": 0.1360125
+    },
+    {
+      "driver_id": 15,
+      "expected_points": 49.0898,
+      "expected_championship_position": 18.9304,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 1.875e-05,
+      "race_podium_probability": 0.00074375
+    },
+    {
+      "driver_id": 16,
+      "expected_points": 469.3538,
+      "expected_championship_position": 6.7498,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.047325,
+      "race_podium_probability": 0.26734375
+    },
+    {
+      "driver_id": 17,
+      "expected_points": 85.7146,
+      "expected_championship_position": 13.8844,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.00020625,
+      "race_podium_probability": 0.00375625
+    },
+    {
+      "driver_id": 18,
+      "expected_points": 633.8593,
+      "expected_championship_position": 3.4862,
+      "championship_win_probability": 0.0168,
+      "championship_podium_probability": 0.4287,
+      "race_win_probability": 0.0499125,
+      "race_podium_probability": 0.29025625
+    },
+    {
+      "driver_id": 19,
+      "expected_points": 643.2858,
+      "expected_championship_position": 3.1829,
+      "championship_win_probability": 0.0304,
+      "championship_podium_probability": 0.628,
+      "race_win_probability": 0.02950625,
+      "race_podium_probability": 0.22726875
+    },
+    {
+      "driver_id": 20,
+      "expected_points": 72.8366,
+      "expected_championship_position": 15.9016,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.0002125,
+      "race_podium_probability": 0.00379375
+    },
+    {
+      "driver_id": 27,
+      "expected_points": 38.8043,
+      "expected_championship_position": 20.3361,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.00026875,
+      "race_podium_probability": 0.00459375
+    },
+    {
+      "driver_id": 30,
+      "expected_points": 66.273,
+      "expected_championship_position": 16.6662,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.0035,
+      "race_podium_probability": 0.0338125
+    },
+    {
+      "driver_id": 37,
+      "expected_points": 8.4536,
+      "expected_championship_position": 22.8669,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 0.0017875,
+      "race_podium_probability": 0.00993125
+    },
+    {
+      "driver_id": 38,
+      "expected_points": 0.5111,
+      "expected_championship_position": 23.9397,
+      "championship_win_probability": 0.0,
+      "championship_podium_probability": 0.0,
+      "race_win_probability": 6.25e-06,
+      "race_podium_probability": 0.00014375
+    }
+  ]
+}

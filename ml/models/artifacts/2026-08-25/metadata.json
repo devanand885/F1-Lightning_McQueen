@@ -1,0 +1,109 @@
+{
+  "run_id": "2026-08-25",
+  "trained_at": "2026-08-25T10:18:18.238024",
+  "random_seed": 42,
+  "features": [
+    "race_pace_teammate_relative",
+    "qualifying_pace_teammate_relative",
+    "quali_race_delta_teammate_relative",
+    "degradation_slope",
+    "consistency_cv",
+    "start_performance_delta"
+  ],
+  "k": 3,
+  "k_sweep": [
+    {
+      "k": 2,
+      "silhouette": 0.17472483814344728,
+      "inertia": 102.32209706204165,
+      "min_cluster_size": 11
+    },
+    {
+      "k": 3,
+      "silhouette": 0.18076539237934008,
+      "inertia": 84.94735570695998,
+      "min_cluster_size": 2
+    },
+    {
+      "k": 4,
+      "silhouette": 0.1670399928707975,
+      "inertia": 73.45702007218591,
+      "min_cluster_size": 1
+    },
+    {
+      "k": 5,
+      "silhouette": 0.17641862675368045,
+      "inertia": 61.75206916126799,
+      "min_cluster_size": 1
+    },
+    {
+      "k": 6,
+      "silhouette": 0.19867859748738556,
+      "inertia": 50.191591737158184,
+      "min_cluster_size": 1
+    }
+  ],
+  "min_cluster_size_constraint": 2,
+  "silhouette": 0.18076539237934008,
+  "pca_explained_variance_ratio": [
+    0.3132983093157858,
+    0.25942572398927033
+  ],
+  "cluster_sizes": {
+    "0": 10,
+    "1": 10,
+    "2": 2
+  },
+  "cluster_centroids": {
+    "0": {
+      "race_pace_teammate_relative": -0.488,
+      "qualifying_pace_teammate_relative": -0.026,
+      "quali_race_delta_teammate_relative": 0.395,
+      "degradation_slope": -0.768,
+      "consistency_cv": -0.351,
+      "start_performance_delta": -0.201
+    },
+    "1": {
+      "race_pace_teammate_relative": 0.768,
+      "qualifying_pace_teammate_relative": 0.059,
+      "quali_race_delta_teammate_relative": -0.605,
+      "degradation_slope": 0.745,
+      "consistency_cv": -0.17,
+      "start_performance_delta": 0.195
+    },
+    "2": {
+      "race_pace_teammate_relative": -1.402,
+      "qualifying_pace_teammate_relative": -0.167,
+      "quali_race_delta_teammate_relative": 1.052,
+      "degradation_slope": 0.115,
+      "consistency_cv": 2.602,
+      "start_performance_delta": 0.029
+    }
+  },
+  "driver_ids_used": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    27,
+    30,
+    37
+  ],
+  "n_eligible": 22,
+  "n_population": 24
+}
